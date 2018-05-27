@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    
+    <meta charset="utf-8">
+    <title>APPLEBERRY</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    
+    <!-- Owl Carouselを動作させるために追加 -->
+    <script src="test-carousel.js"></script>
+
+    
+</head>
+<body>
+
+<!-- ▼ヘッダーエリア -->
+<header>
+<div id="contents">
+    <div class="container">
+        <div class="row">
+
+        <div id="header_in" class="twelve columns">
+  
+                  <!-- スマホのヘッダー表示 -->            
+                  <!-- <div class="sp_navi"> -->
+                  <div class="sp_header">
+
+                      <!-- スマホのロゴ -->
+                      <!-- <div class="six columns logo"> -->
+                      <div class="sp_logo">
+                        <h1><img class="u-max-full-width" src="imeges/top_sp/logo.png" alt="APPLE BERRY" srcset="imeges/top_sp/logo@2x.png 2x" /></h1>
+                      </div>
+
+                      <!-- <div class="six columns navi"> -->
+                          <div class="sp_navi">
+
+                                      <a href="#"><img class="u-max-full-width" src="imeges/top_sp/fb.png" alt="Facebook"  srcset="imeges/top_sp/fb@2x.png 2x" /></a>
+                                      <a href="#"><img class="u-max-full-width" src="imeges/top_sp/insta.png" alt="insta"  srcset="imeges/top_sp/insta@2x.png 2x" /></a>
+                                      <img id="sp_navi_btn" class="u-max-full-width" src="imeges/top_sp/menu_icon.png" alt="スマホのハンバーガーメニューの画像" srcset="imeges/top_sp/menu_icon@2x.png 2x" /> 
+
+                                  <!--
+                                  <ul class="sp_navi_list">
+                                      <li><a href="#"><img class="u-max-full-width" src="imeges/top_sp/fb.png" alt="Facebook"  srcset="imeges/top_sp/fb@2x.png 2x" /></a></li>
+                                      <li><a href="#"><img class="u-max-full-width" src="imeges/top_sp/insta.png" alt="insta"  srcset="imeges/top_sp/insta@2x.png 2x" /></a></li>
+                                      <li><img id="sp_navi_btn" class="u-max-full-width" src="imeges/top_sp/menu_icon.png" alt="スマホのハンバーガーメニューの画像" srcset="imeges/top_sp/menu_icon@2x.png 2x" /></li> 
+                                  </ul> -->
+
+                                  <!-- ハンバーガーメニュー -->
+                                  <ul class="sp_navi_li">
+                                    <!-- 
+                                      <li><a href="#">LOGIN</a></li>
+                                      <li><a href="#">CART</a></li>
+                                      <li><a href="#">MY PAGE</a></li>
+                                      <li><a href="#">SHOPING GUIDE</a></li>
+                                    -->
+                                    
+                                      <li><a href="#"><img src="imeges/top/menu_login.png" alt="LOGIN" /></a></li>
+                                      <li><a href="#"><img src="imeges/top/menu_cart.png" alt="CART" /></a></li>
+                                      <li><a href="#"><img src="imeges/top/menu_mypage.png" alt="MY PAGE" /></a></li>
+                                      <li><a href="#"><img src="imeges/top/menu_guide.png" alt="SHOPING GUIDE" /></a></li>
+                                    
+                                  </ul>
+                            </div>    <!--sp_navi1-->
+                        <!-- </div> -->  <!-- six columns navi -->
+
+                    </div>
+                    <!-- sp_header -->
+            
+            
+                <!-- PCのヘッダー表示 -->            
+                    <div class="pc_header">
+
+                          <!-- PCのロゴ -->
+                          <div class="three columns logo">
+                  
+                            <div class="pc_navi_logo">        
+                              <h1><img class="u-max-full-width" src="imeges/top/logo.png" alt="APPLE BERRY" srcset="images/top/logo@2x.png 2x" /></h1>
+                            </div>
+                          </div>
+                                             
+                  
+                          <div class="nine columns navi">
+                            <div class="pc_navi">        
+                                  <ul class="pc_navi_li">
+                                    <!-- <li><a href="#">LOGIN</a></li>
+                                    <li><a href="#">CART</a></li>
+                                    <li><a href="#">MY PAGE</a></li>
+                                    <li><a href="#">SHOPING GUIDE</a></li> -->
+                                    
+                                    <div  class="space_right"><li><a href="#"><img class="u-max-full-width" src="imeges/top/menu_login.png" alt="LOGIN" /></a></li></div>
+                                    <div  class="space_right"><li><a href="#"><img class="u-max-full-width" src="imeges/top/menu_cart.png" alt="CART" /></a></li></div>
+                                    <div  class="space_right"><li><a href="#"><img class="u-max-full-width" src="imeges/top/menu_mypage.png" alt="MY PAGE" /></a></li></div>
+                                    <div  class="space_right"><li><a href="#"><img class="u-max-full-width" src="imeges/top/menu_guide.png" alt="SHOPING GUIDE" /></a></li></div>
+                                    <li><a href="#"><img class="u-max-full-width" src="imeges/top/facebook.png" alt="Facebook" /></a></li>
+                                    <li><a href="#"><img class="u-max-full-width" src="imeges/top/insta.png" alt="insta" /></a></li>
+                                  </ul>
+                            </div>
+                          </div> <!--</div>six columns navi -->
+                    
+                    </div>
+                    <!-- pc_header -->
+            
+
+            </div><!-- header_in -->
+        </div><!-- row -->
+
+      </div><!-- container -->
+</div><!-- contents --> 
+</header>
+    
+
+
+
+<!-- ▼contents -->
+<div id="contents">
+<div class="container">
+
+
+<!-- ▼main -->
+<div id="main" class="nine columns">
+
+  <!-- ▼row -->
+  <div class="row">
+
+
+
+    <!-- ▼home / カテゴリー名 -->
+    <div class="ghome_cate_title"><img src="imeges/list/home_icon.png" alt="HOME icon" /> <a href="#">HOME</a> / <a href="#">カテゴリー名</a>/ <a href="#">商品名</a></div>
+
+
+    <!-- ▼cover -->
+    <div id="syouhin">
+        <!-- <div id="cover_area"> -->
+            
+            <!-- 商品名・商品コードの表示-->
+            <div class="syouhin_mei_code">
+                <!-- 商品名を表示 -->
+                    <div class="syouhin_L">
+                    <!--<div class="back_next_btn_iti_L">-->
+                        <span class="syouhin_mei" >商品名が入ります</span>
+                    </div>
+
+                <!-- 商品コード -->
+                    <div class="syouhin_R">
+                    <!--<div class="back_next_btn_iti_R">-->
+                        <span class="syouhin_code">fa0001-91</span>
+                    </div>
+            </div>
+            
+
+
+    <!-- floatの解除 -->
+    <div class="clear"></div>
+    
+    
+<hr class="hr_syouhin">
+        
+
+
+
+    <!-- 写真を表示 -->
+    <div class="syouhin_img_box twelve column">
+                <!-- メインディスプレイ部分 -->
+                    <div id="display_img" class="eight columns">
+                        <img src="imeges/products/pro_img_01.jpg" alt="">
+                    </div>
+                    
+                <!-- 複数の商品写真を表示する場所 -->
+                <ul id="list_img" class="four columns">
+                    <li><img src="imeges/products/pro_img_01.jpg" alt="イメージ１" class="u-max-full-width" ></li>
+                    <li><img src="imeges/products/pro_img_02.jpg" alt="イメージ２" class="u-max-full-width" ></li>
+                    <li><img src="imeges/products/pro_img_03.jpg" alt="イメージ３" class="u-max-full-width" ></li>
+                    <li><img src="imeges/products/pro_img_04.jpg" alt="イメージ４" class="u-max-full-width" ></li>
+                    <li><img src="imeges/products/pro_img_05.jpg" alt="イメージ５" class="u-max-full-width" ></li>
+                    <li><img src="imeges/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width" ></li>
+                    <li><img src="imeges/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width" ></li>
+                    <li><img src="imeges/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width" ></li>
+                    <li><img src="imeges/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width" ></li>
+                    <li><img src="imeges/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width" ></li>
+                </ul>
+
+            
+            <!--
+                            <ul id="list_img" class="four columns">
+                                <li><img src="imeges/products/pro_img_01.jpg" alt="イメージ１" class="u-max-full-width"  ></li>
+                                <li><img src="imeges/products/pro_img_02.jpg" alt="イメージ２" class="u-max-full-width"  ></li>
+                                <li><img src="imeges/products/pro_img_03.jpg" alt="イメージ３" class="u-max-full-width"  ></li>
+                                <li><img src="imeges/products/pro_img_04.jpg" alt="イメージ４" class="u-max-full-width"  ></li>
+                                <li><img src="imeges/products/pro_img_05.jpg" alt="イメージ５" class="u-max-full-width"  ></li>
+                                <li><img src="imeges/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width"  ></li>
+                                <li><img src="imeges/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width"  ></li>
+                                <li><img src="imeges/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width"  ></li>
+                                <li><img src="imeges/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width"  ></li>
+                                <li><img src="imeges/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width"  ></li>
+                            </ul>
+            -->
+
+<!-- ▼COLOR / SIZE エリア -->
+
+            <hr class="hr_syouhin">
+
+
+        <!-- ▼COLOR / SIZE の項目名-->
+        <img class="u-max-full-width color_size" src="imeges/products/title_color.png" alt="COLOR / SIZE" />
+
+        <!-- ▼COLOR / SIZE のテーブル-->
+            <table border="1" class="color_size_table">
+              <tr>
+                <th class="color_size_table_th"></th>
+                <th class="color_size_table_th">カラー１</th>
+                <th class="color_size_table_th">カラー２</th>
+              </tr>
+              <tr>
+                <th class="color_size_table_th">サイズ</th>
+                <td class="color_size_table_td">
+                      <!--<input type="radio" name="radio02" class="radio01-input" id="radio01-01">-->
+                      <input type="checkbox" name="radio02" class="radio01-input" id="radio01-01">
+                </td>
+                <td class="color_size_table_td">
+                      <!--<input type="radio" name="radio02" class="radio01-input" id="radio01-02">-->
+                      <input type="checkbox" name="radio02" class="radio01-input" id="radio01-02">
+                </td>
+              </tr>
+            </table>
+
+
+       
+        <!-- 「PRICE」 「Quantily」 「add to CART」を左に表示 -->
+        <div class="price_quantily_box">
+              <!--<div class="seven colums">-->
+                    <table border="1" class="price_quantily_table">
+                      <tr class="price_quantily_table_tr">
+                        <td class="left price_quantily_table_td"><img src="imeges/products/title_price.png" alt="PRICE"></td>
+                        <td class="left price_quantily_table_td">
+                            <p class="price_font">￥1,000</p><p class="tax_font">(tax in)</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="left price_quantily_table_td"><img src="imeges/products/title_quantity.png" alt="quantity"></td>
+                        <td class="left price_quantily_table_td">
+                            <form class="quantity_form"><input type="text" class="quantity_text left" /></form>
+                        </td>
+                      </tr>
+                    </table>
+                <!--</div>-->
+                  
+    <hr class="clear hr_quantity_down_line_sumaho">
+
+              <!-- 「add TO CART」を右に表示 -->
+              <!--<div class="four colums">-->
+                <div class="cart_btn">
+                    <img src="imeges/products/add_to_cart.png" alt="add TO CART" class="u-max-full-width" >
+                </div>
+              <!--</div>-->
+        </div>
+        
+
+    <!-- floatの解除 -->
+    <!--<div class="clear"></div>-->
+    <hr class="clear hr_quantity_down_line_pc">
+    
+    
+            <!--<hr class="hr_syouhin">-->
+            
+        <!-- 商品説明の見出し -->
+        <!--<div class"syouhin_setumei_midasi_box"><p class="syouhin_setumei_midasi_font">商品説明</p></div>-->
+        <p class="syouhin_setumei_midasi_font">商品説明</p>
+        
+
+        <hr class="hr_syouhin_syouhinsetumei">
+       
+        <p class="syouhin_setumei_midasi_font">■説明タイトル説明タイトル説明タイトル説明タイトル</p>
+       
+        <p class="syouhin_setumei_font">説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト
+        <br />
+        説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキ
+        <br />
+        スト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト</p>
+       
+       
+        <!-- ▼COLOR / SIZE の説明テーブル-->
+            <table border="1" class="color_size_table">
+              <tr>
+                <th class="color_size_table2_th">カラー</th>
+                <td class="color_size_table2_td">
+                  説明文が入ります説明文が入ります説明文が入ります
+                </td>
+              </tr>
+              <tr>
+                <th class="color_size_table2_th">サイズ</th>
+                <td class="color_size_table2_td">
+                  説明文が入ります説明文が入ります説明文が入ります
+                </td>
+              </tr>
+            </table>       
+       
+       
+       
+       
+</div> <!-- syouhin_img_box -->
+
+        <!-- </div>-->
+        
+        
+    </div><!-- syouhin -->  
+
+  </div> <!-- ▲Row -->
+
+
+
+<hr class="hr_syouhin">
+            
+
+
+  <!-- ▼row -->
+  <div class="row">
+
+    
+    <!-- ▼最近見た商品 一覧 -->
+    <div id="popular_item">
+
+        <!-- <div id="popular_title">
+            <img src="imeges/top/title_popular.png" alt="POPULAR ITEMS" />
+        </div> -->
+        <div class="pc_h2_title">
+            <h2><img class="u-max-full-width" src="imeges/list/recent_pro_pc.png" alt="最近見た商品" /></h2>
+        </div>
+        <div class="sp_h2_title">
+            <h2><img class="u-max-full-width" src="imeges/list/title_recent_pro.png" alt="最近見た商品"  srcset="imeges/list/title_recent_pro@2x.png 2x" /></h2>
+        </div>
+
+        <!-- ▼NEW ITEM一覧 -->
+        <div id="popular_itiran">
+
+              <ul class="block-grid block-grid-1-2-3">
+
+                    <!--1column -->
+                      <li>
+                          <img class="u-max-full-width" src="imeges/top/item_07.jpg" alt="アイテム１列目の１個目" />
+                          <p>商品名が入ります商品名が入ります商品名が入ります</p>
+                          <p>￥10,000（tax in）</p>
+                      </li>
+
+                    <!--2column -->
+                      <li>
+                          <img class="u-max-full-width" src="imeges/top/item_08.jpg" alt="アイテム１列目の２個目" />
+                          <p>商品名が入ります商品名が入ります商品名が入ります</p>
+                          <p>￥10,000（tax in）</p>
+                      </li>
+
+                    <!--▼3column -->
+                      <li>
+                          <img class="u-max-full-width" src="imeges/top/item_09.jpg" alt="アイテム１列目の３個目" />
+                          <p>商品名が入ります商品名が入ります商品名が入ります</p>
+                          <p>￥10,000（tax in）</p>
+                      </li>
+
+                </ul>
+        </div> <!--popular_itiran -->
+
+    </div> <!-- ▲最近見えた商品> -->
+
+
+  </div> <!-- ▲Row -->
+
+
+  <!-- ▼row -->
+  <div class="row">
+
+
+    <!-- ▼SHOPPING GUIDEエリア -->
+    
+        <!-- <div class="shopping_title">
+            <img src="imeges/top/title_guide.png" alt="SHOPPING GUIDE" />
+        </div> -->
+        <div class="pc_h2_title">
+            <h2><img class="u-max-full-width" src="imeges/top/title_guide.png" alt="POPULAR ITEMS" /></h2>
+        </div>
+        <div class="sp_h2_title">
+            <h2><img class="u-max-full-width" src="imeges/top_sp/title_guide.png" alt="POPULAR ITEMS"  srcset="imeges/top_sp/title_guide@2x.png 2x" /></h2>
+        </div>
+
+        <!-- ▼SHOPPING GUIDE一覧 -->
+        <ul class="block-grid block-grid-1-2">
+
+            <li class="shopping_guide-box">
+                <!--▼1column お届けについて-->
+                
+                    <div class="shopping_koumoku">お届けについて</div>
+                    <img class="u-max-full-width" src="imeges/top/otodoke_banner.png" alt="合計5,000円以上で送料無料の画像" />
+                    <div class="shopping_syousai">○○運輸</div>
+                    <p>送料￥000円</p>
+                    <div class="shopping_syousai">ゆうパケット</div>
+                    <p>ポスト投函となります。日時指定不可</p>
+                
+            </li>          
+          
+
+            <li class="shopping_guide-box">
+                <!--▼2column 決済について-->
+                    <div class="shopping_koumoku">決済について</div>
+                    <div class="shopping_syousai">カード決済</div>
+                    <img class="u-max-full-width" src="imeges/top/cards.png" alt="クレジットカードの画像" />
+                    <div class="shopping_syousai">代金引換</div>
+                    <p>代引き手数料が別途かかります</p>
+                    <div class="shopping_syousai">銀行振込</div>
+                    <p>お振込手数料お客様負担。<br />ご入金後の発送となります。</p>
+            </li>
+
+      </ul>
+      
+      
+
+  </div> <!-- ▲Row -->
+
+    </div>
+<!-- ▲main -->
+ 
+
+
+<!-- ▼sidebar -->
+      <div id="sidebar" class="three columns">
+  <!-- ▼row -->
+  <div class="row">
+
+
+        <!-- <div class="pc_sidemenu"> -->
+          
+          
+          <!-- ▼ITEM SEARCH -->
+          <div class="item_search">
+                  <img class="search_img1" src="imeges/top/itemserch.png" alt="ITEM SEARCHの画像" />
+ 
+                  <form name="searchform" id="searchform" method="get" action="#">
+                      <input name="keywordseach" id="keywordseach" value="Search..." type="text" />
+                      <!-- <input type="image" src="imeges/top/search_icon.png" alt="検索ボックス" name="searchBtn2" id="searchBtn2" /> -->
+                  </form>
+          </div>
+          
+          
+          <!-- ▼ITEM SEARCH -->
+          <!--<div class="item_search">-->
+            
+            <!--<form action="/" name="search1" method="post">-->
+            <!--	<dl class="search1">-->
+            <!--		<dt><input type="text" name="search" value="" placeholder="Search" /></dt>-->
+            <!--		<dd><button><span></span></button></dd>-->
+            <!--	</dl>-->
+            <!--</form>-->
+            
+            
+                   <!--<div class="seach_img"></div> -->
+          <!--        <img class="search" src="imeges/top/itemserch.png" alt="ITEM SEARCHの画像" />-->
+ 
+          <!--        <form name="searchform" id="searchform" method="get" action="#">-->
+          <!--            <input name="keywordseach" id="keywordseach" value="" placeholder="Search..." type="text" />-->
+          <!--             <input type="image" src="imeges/top/search_icon.png" alt="検索ボックス" name="searchBtn2" id="searchBtn2" /> -->
+          <!--        </form>-->
+          <!--</div>-->
+          <!-- ▲ITEM SEARCH -->
+
+          <!-- ▼「ページリンク」「CATEGORIES」class="sidebar_yazirusi_migi"-->
+          <div class="pege_link">
+                    <div class="accbox">
+                      <!--ラベル1 -->
+                        <label for="label1"><img src="imeges/top/pagelink.png" alt="ページリンク" /></label>
+                        <input type="checkbox" id="label1" class="cssacc" />
+                        <div class="accshow">
+                            <!--ここに隠す中身-->
+                            <p class="sidebar_yazirusi_migi_gray"><a href="#">ページリンク１</a></p>
+                            <p class="sidebar_yazirusi_migi_gray"><a href="#">ページリンク２</a></p>
+                            <p class="sidebar_yazirusi_migi_gray"><a href="#">ページリンク３</a></p>
+                            <p class="sidebar_yazirusi_migi_gray"><a href="#">ページリンク４</a></p>
+                            <p class="sidebar_yazirusi_migi_gray"><a href="#">ページリンク５</a></p>
+                            <p class="sidebar_yazirusi_migi_gray"><a href="#">ページリンク６</a></p>
+                        </div>
+                        <!--//ラベル1-->
+                    </div> <!--//.accbox -->
+                    
+                    <div class="accbox1">
+                      <!--ラベル2-->
+                        <label for="label2"><img src="imeges/top/categories.png" alt="CATEGORIES" /></label>
+                        <input type="checkbox" id="label2" class="cssacc" checked="checked" />
+                        <div class="accshow">
+                          <!--ここに隠す中身-->
+                          <p><a href="#">カテゴリー名</a></p>
+                          <p class="sidebar_yazirusi_migi_gray"><a href="#">カテゴリー名</a></p>
+                          <p class="sidebar_yazirusi_migi_gray"><a href="#">カテゴリー名</a></p>
+                          <p class="sidebar_yazirusi_migi_gray"><a href="#">カテゴリー名</a></p>
+                          <p class="sidebar_yazirusi_migi_gray"><a href="#">カテゴリー名</a></p>
+                          <p class="sidebar_yazirusi_migi_gray"><a href="#">カテゴリー名</a></p>
+
+                        </div>
+                        <!--//ラベル2-->
+                    </div><!--//.accbox1-->
+          </div>
+          <!-- ▲「ページリンク」「CATEGORIES」 -->
+
+          <!-- ▼ABOUT -->
+          <div class="sidebar_title">
+                <img src="imeges/top/about.png" alt="ABOUT" />
+          </div>
+          <div class="sidebar_naiyou">
+                <img class="u-max-full-width" src="imeges/top/about_img.jpg" alt="aboutのイメージ" />
+                <p class="sidebar_naiyou_p">お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
+                <a href="#" class="more_img"><img src="imeges/top/more_btn.png" alt="MORE" /></a>
+          </div>
+          <!-- ▲ABOUT -->
+          
+<div class="clear_block"></div>
+
+          <!-- ▼SHOP INFO -->
+          <div class="sidebar_title">
+                <img src="imeges/top/shop_info.png" alt="SHOP INFO" />
+          </div>
+          <div class="sidebar_naiyou">
+                <img class="u-max-full-width" src="imeges/top/shopinfo_img.jpg" alt="shopinfo_img" />
+                <p class="sidebar_naiyou_p">お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
+                <a href="#" class="more_img"><img src="imeges/top/more_btn.png" alt="MORE" /></a>
+          </div>
+          <!-- ▲SHOP INFO -->
+
+
+
+          
+        <!-- </div> --> <!-- PC_sideber -->
+
+
+  </div> <!-- ▲Row -->
+    
+      </div>
+<!-- ▲sidebar -->
+
+
+  </div> <!-- ▲container -->        
+
+</div>
+<!-- ▲contents -->
+
+
+
+<!-- ▼footer -->
+<footer>
+<div id="contents">
+    <div class="container">
+        <div class="row">
+
+
+    <!-- トップページに戻る-->
+    <div class="footer_pagetop">
+        <!-- pagetop -->
+        <!--<div id="pagetop" hidden>-->
+            <a href="#"><img src="imeges/top/pagetop.png" alt="トップページに戻る"></a>
+        <!--</div>-->
+    </div>
+
+    
+    <!--<hr class="footer_hr">-->
+  <hr class="footer_hr">
+
+    <ul class="foot_navi">
+      <li><a href="">特定商取引に基づく表記</a></li>
+      <li>・</li>
+      <li><a href="">プライバシーポリシー</a></li>
+      <li>・</li>
+      <li><a href="">マイページ</a></li>
+    </ul>
+    
+      
+    <p class="copy">copyright (C) APPLE BERRY all rights reserved.</p>
+    
+
+    </div> <!-- ▲Row -->
+  </div> <!-- ▲container -->        
+</div>
+<!-- ▲contents -->
+
+</footer>
+
+
+
+
+
+<!-- TOPに戻る -->
+<script>
+$(function(){
+  var topBtn=$('#pagetop');
+  topBtn.hide();
+ 
+  //ボタンの表示設定
+  $(window).scroll(function(){
+    if($(this).scrollTop()>800){
+      //---- 画面を800pxスクロールしたら、ボタンを表示する
+      topBtn.fadeIn();
+    }else{
+      //---- 画面が800pxより上なら、ボタンを表示しない
+      topBtn.fadeOut();
+    } 
+  });
+ 
+  //ボタンをクリックしたら、スクロールして上に戻る
+  topBtn.click(function(){
+    $('body,html').animate({
+    scrollTop: 0},500);
+    return false;
+  });
+});
+</script>
+
+
+
+<!-- ハンバーガーメニュー -->
+<script>
+  $(function(){
+    $(document).ready(function(){
+
+      $("#sp_navi_btn").click(function () {
+        $(this).next().slideToggle();
+      });
+
+    });
+  });
+</script>
+
+
+<!-- クリックで画像を入れ替える -->
+<script>
+    $(window).load(function(){
+      $("#list_img img").click(function(){
+        var img_src = $(this).attr("src");
+        $("#display_img img").attr("src", img_src);
+      });
+    });
+</script>
+
+
+</body>
+</html>
+    
+    
+    
+    
+    

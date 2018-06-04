@@ -98,13 +98,11 @@ h1 {
     font-weight: bold;
     margin: 20px 0;  
 }
-
 h2 span {
     display: inline-block;
     padding: 0 0.5em;
     position: relative;
 }
-
 h2 span:before,
 h2 span:after {
     border-top: 1px solid;
@@ -113,11 +111,9 @@ h2 span:after {
     top: 50%;
     width: 99em;
 }
-
 h2 span:before {
     right: 100%;
 }
-
 h2 span:after {
     left: 100%;
 }
@@ -398,7 +394,7 @@ header #header_in {
     font-size: 0.8rem;
     font-weight: bold; 
     
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
 }
 
 /* スマホ  */
@@ -444,8 +440,7 @@ header #header_in {
       text-align: left !important;
     }
 
-/*      -webkit-tap-highlight-color: transparent;}*/
-      
+
     .owl-theme .owl-dots .owl-dot span {
       width: 30px !important;
       height: 3px !important;
@@ -692,7 +687,7 @@ header #header_in {
     /*	margin: 20px 0px 0px 0px;*/
     /*}*/
     
-    /*商品紹介ページの区切り線　「COLOR / SIZE　の上のライン」*/
+    /*商品紹介ページの区切り線���「COLOR / SIZE　の上のライン」*/
     .hr_syouhin2 {
     	border: 0.5px solid #e8e4da;
     	margin: 0px 0px 20px 0px;
@@ -730,11 +725,12 @@ header #header_in {
 /*sumaho*/
 @media (max-width: 641px) {
 
+
     .display_img img {
       width: 100%;
       /*margin: 0 10px 0 10px;*/
       /*margin: 0 10px 0 0px;*/
-      padding: 10px 0px 0 0px;
+      padding: 10px 5px 0px 0px;
       text-align: center;
       box-sizing: border-box; 
       /* paddingを無視して幅100%に設定   はみ出さないようにする*/
@@ -776,11 +772,17 @@ header #header_in {
       /*display: table;*/
      display: inline-block;
     padding-bottom: 10px;
+    /*margin-right: auto;*/
   }
 
   .img_flexbox img {
+     /*width:18.759%;*/
      width:18.759%;
+     cursor: pointer;
+      /*width: 100px;*/
   }
+  
+  
   
     /*.item li {*/
       /*margin: 0px 0 0 0;*/
@@ -792,13 +794,13 @@ header #header_in {
     /*        text-align: right;*/
       /*padding: 0px 5px -10px 0px;*/
     /*}*/
-    /*.item li img {*/
-    /*  width: 100%;*/
-    /*  cursor: pointer;*/
+    .item li img {
+      width: 100%;
+      cursor: pointer;
       /*margin: 0 0 0 0 ;*/
-    /*  padding: 0 5px 5px 0;*/
+      /*padding: 0 5px 5px 0;*/
    
-    /*}*/
+    }
     
   /*.item img{*/
     /*display: table-cell;*/
@@ -845,6 +847,7 @@ header #header_in {
 
     .display_img img {
       text-align:left;
+      /*margin:0 5px 0 0;*/
       /*width: 68%;*/
       /*margin: 0px 10px 0 0;*/
       /*padding: 0 10px 10px 0;*/
@@ -853,19 +856,8 @@ header #header_in {
     }
 
     
-/*.img_flexbox1 {*/
-/*        list-style: none;*/
-      /*display: inline-block;*/
-      /*margin: 0px 10px 0 0 ;*/
-      /*margin:5px 5px 0 5px;*/
-      /*padding: 0 10px 0 10px;*/
-/*      padding: 0 0px 0 0px;*/
-/*      margin:5px 0px 0 0px;*/
-/*      float:right;*/
-/*      width:30%;*/
-      
-/*}*/
-
+  
+  
 .img_flexbox {
   display: flex;
   
@@ -877,6 +869,7 @@ header #header_in {
       /*padding: 0 10px 0 10px;*/
       /*float:right;*/
       width:30%;
+      width:33%;
 
       /*padding: 0px 0px 0px 0px;*/
       /*margin: 5px 0px 0px 0px;*/
@@ -884,20 +877,32 @@ header #header_in {
 }
 
 
-/*.img_flexbox img {*/
-  /*width:100%;*/
-/*}*/
+  .img_flexbox img {
+     cursor: pointer;
+      width: 100%;
+      text-align: right;
+  }
+
+
 
 .item {
       /*width:80px;*/
-  width:40%;
+  /*width:40%;*/
+  /*width:44%;*/
+  width:41%;
     /*background-color:black;*/
     /*color:white;*/
     text-align:right;
     /*border-left:1px solid white;*/
-      padding: 0 0px 0 5px;
-  
-}
+      padding: 0 0px 5px 10px;
+  }
+
+  .item img {
+     cursor: pointer;
+      width: 100px;
+      text-align: right;
+      
+  }
 
   /*  #img_flexbox li {*/
       /*margin: 0px 0 0 0;*/
@@ -2799,7 +2804,3 @@ footer {
     display:none;
   }
 }
-
-
-
-

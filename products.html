@@ -221,21 +221,21 @@
               <!-- メインディスプレイ部分 -->
                     <!--<div class="display_img" class="nine columns">-->
                     <div class="display_img">
-                        <img src="images/products/pro_img_01.jpg" alt="">
+                        <img src="images/products/pro_img_01.jpg" id="MainPhoto" alt="イメージ１">
                     </div>
 
                     <!--<div class="img_flexbox1">    -->
                       <div class="img_flexbox">
-                          <div class="item"><img src="images/products/pro_img_01.jpg" alt="イメージ１" class="u-max-full-width" ></div>
-                          <div class="item"><img src="images/products/pro_img_02.jpg" alt="イメージ２" class="u-max-full-width" ></div>
-                          <div class="item"><img src="images/products/pro_img_03.jpg" alt="イメージ３" class="u-max-full-width" ></div>
-                          <div class="item"><img src="images/products/pro_img_04.jpg" alt="イメージ４" class="u-max-full-width" ></div>
-                          <div class="item"><img src="images/products/pro_img_05.jpg" alt="イメージ５" class="u-max-full-width" ></div>
-                          <div class="item"><img src="images/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width" ></div>
-                          <div class="item"><img src="images/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width" ></div>
-                          <div class="item"><img src="images/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width" ></div>
-                          <div class="item"><img src="images/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width" ></div>
-                          <div class="item"><img src="images/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width" ></div>
+                          <div class="item"><img src="images/products/pro_img_01.jpg" alt="イメージ１" class="u-max-full-width ChangePhoto" ></div>
+                          <div class="item"><img src="images/products/pro_img_02.jpg" alt="イメージ２" class="u-max-full-width ChangePhoto" ></div>
+                          <div class="item"><img src="images/products/pro_img_03.jpg" alt="イメージ３" class="u-max-full-width ChangePhoto" ></div>
+                          <div class="item"><img src="images/products/pro_img_04.jpg" alt="イメージ４" class="u-max-full-width ChangePhoto" ></div>
+                          <div class="item"><img src="images/products/pro_img_05.jpg" alt="イメージ５" class="u-max-full-width ChangePhoto" ></div>
+                          <div class="item"><img src="images/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width ChangePhoto" ></div>
+                          <div class="item"><img src="images/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width ChangePhoto" ></div>
+                          <div class="item"><img src="images/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width ChangePhoto" ></div>
+                          <div class="item"><img src="images/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width ChangePhoto" ></div>
+                          <div class="item"><img src="images/products/gray_pro_img.jpg" alt="グレイ画像" class="u-max-full-width ChangePhoto" ></div>
                       </div>
                     <!--</div>-->
         
@@ -1211,13 +1211,35 @@ $(function(){
 
 <!-- クリックで画像を入れ替える -->
 <script>
-    $(window).load(function(){
-      $("#list_img img").click(function(){
-        var img_src = $(this).attr("src");
-        $("#display_img img").attr("src", img_src);
-      });
-    });
+   $(window).load(function(){
+     $("#list_img img").click(function(){
+       var img_src = $(this).attr("src");
+       $("#display_img img").attr("src", img_src);
+     });
+   });
 </script>
+
+<!--$(window).load(function(){-->
+<!--  $("#item img").click(function(){-->
+<!--    var img_src = $(this).attr("src");-->
+<!--    $("#display_img img").attr("src", img_src);-->
+<!--  });-->
+<!--});-->
+
+
+<!-- クリックで画像を入れ替える -->
+$(function(){
+  $("img.ChangePhoto").click(function(){
+    var ImgSrc = $(this).attr("src");
+    var ImgAlt = $(this).attr("alt");
+    with($("img#MainPhoto")){
+      attr({src:ImgSrc});
+      hide();
+      fadeIn("slow");
+    }
+  });
+});
+
 
 
 </body>
